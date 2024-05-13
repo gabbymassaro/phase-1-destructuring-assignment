@@ -41,10 +41,15 @@ const [blackAndWhite, black, pink] = farmAnimals3;
 // Arrays
 
 // 4. Use destructuring to assign appropriate variables using the color names.
+const [red, orange, yellow, green, blue, indigo, violet] = colors;
 
 // 5. Some people have a really hard time picking out indigo, so let's leave that one out, using the first letter of each color as the variable names.
+const colors2 = [colors[0], colors[1], colors[2], colors[3], colors[4], colors[6]];
+const [r, o, y, g, b, v] = colors2; 
 
 // 6. But wait! Indigo is now feeling *super* left out. Let's only assign indigo using indg. 
+const colors3 = [colors[5]];
+const [indg] = colors3; 
 
 // Objects
 
